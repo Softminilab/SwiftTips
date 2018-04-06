@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // UseWhere
+//        let f = UseWhere.show // let f = { (object: UseWhere) in (object.show) }
+//        let object = UseWhere()
+//        f(object)()
+        
+        let f = UseEquatable.saveItems
+        let object = UseEquatable()
+        f(object)()
         return true
     }
 
