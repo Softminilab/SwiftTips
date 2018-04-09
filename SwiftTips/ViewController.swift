@@ -30,6 +30,15 @@ class ViewController: UIViewController {
         for _ in 0...10 {
             print(arc4random_uniform(10) + 1)
         }
+        
+        func addTowInts(_ a: Int, _ b: Int) -> Int {
+            return a + b
+        }
+        
+        let total: (Int, Int) -> Int = addTowInts
+        
+        let result = total(1, 2)
+        printLog("result \(result)")
     }
     
     override func didReceiveMemoryWarning() {
