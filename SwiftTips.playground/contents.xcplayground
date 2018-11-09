@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='practice_1_Currying'/>
+        <page name='practice_2_Sequence'/>
+        <page name='practice_3_AutoClosure'/>
+        <page name='practice_4_Lazy'/>
+        <page name='practice_5_Mirror'/>
+        <page name='practice_6_Signleton'/>
+        <page name='practice_7_weak_unowned'/>
+        <page name='practice_8_Associated'/>
+        <page name='practice_9_synchronized'/>
+        <page name='practice_10_error'/>
+        <page name='practice_11_playground(liveView)'/>
+        <page name='practice_12_codable'/>
+        <page name='practice_13_AccessControl'/>
+    </pages>
+</playground>
